@@ -5,3 +5,9 @@ in order to start the server , you can use the command npm run start:dev ( nodem
 
 The creation of the new itm is being done in a sperate class in a seperate folder , where there is the creation of the class , and 
 monitoring the access ( readonly ) for the object , and then exported / imported in the controllers file 
+
+after generating and creating the controlleres , we have to generate , define and create the services => the command {nest g service items }
+
+=> the porblem of connecting the database , i am going to use the " local mongo db , therefore , here are the steps in order to make it up and running ) 
+=> sudo systemctl start mongod -> to start the process 
+=> systemctl status mongod , to check if it is done ( strated working correctly)
